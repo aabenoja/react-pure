@@ -1,17 +1,28 @@
 {
-  "name": "react-pure",
-  "version": "0.0.1",
-  "description": "",
+  "name": "@aabenoja/react-pure",
+  "version": "0.1.0",
+  "description": "Simple react components for purecss",
   "main": "lib/index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "build": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": {
-    "name": "Alex Abenoja",
-    "email": "abenojaalex@gmail.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aabenoja/react-pure.git"
   },
+  "keywords": [
+    "purecss",
+    "react"
+  ],
+  "author": "Alex Abenoja",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aabenoja/react-pure/issues"
+  },
+  "homepage": "https://github.com/aabenoja/react-pure#readme",
   "devDependencies": {
     "babel-cli": "^6.9.0",
     "babel-plugin-transform-export-extensions": "^6.8.0",
