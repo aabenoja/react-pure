@@ -4,7 +4,8 @@ import classnames from 'classnames';
 export default function Form({
   children,
   legend,
-  type
+  type,
+  ...props
 }) {
   const classes = {
     'pure-form': true,
@@ -13,7 +14,7 @@ export default function Form({
   };
 
   return (
-    <form className={classnames(classes)}>
+    <form className={classnames(classes)} {...props}>
       <fieldset>
         { legend && <legend>{ legend }</legend> }
         { children }
